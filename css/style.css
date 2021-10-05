@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+header{background-color: #F0FFF0;}
+.navbar-brand{width: 200px;}
+.banner-img{}
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(0 0 0);
+   
+    font-weight: 500;
+        padding-right: 18px;
+    padding-left: 18px;border-radius: 30px;
+
+}
+.navbar-light .navbar-nav .nav-link:hover,.navbar-light .navbar-nav .nav-link.active{    
+    background-color: #21B573;border-radius: 30px;
+    color: #fff;
+}
+
+.banner-cont{    padding: 40px 0px;}
+.banner-cont span{color: #FD511A;}
+.banner-cont h1{    font-size: 48px;
+    font-weight: 700;
+    padding: 20px 0;
+}
+.banner-cont  h1 strong{
+    font-weight: 700;
+    color: #21B573;
+}
+.banner-cont p{color: #6C6B6B;}
+
+
+
+.btn-all{background-color: #21B573;border-radius: 30px;
+    color: #fff;border-radius: 30px;}
+.btn-all:hover{ color: #5cff59;
+    background-color: #58578d;
+ }
+
+
+
+.feature-section{}
+.feature{background-color:#F8FFFB;
+    text-align:center;
+    padding: 30px;
+    border-radius: 10px;
+    margin: 40px 0px;
+    transition: all 0.4s linear;
+}
+.feature:hover{
+    background-color: #fff;
+   box-shadow: 0 20px 40px 0 rgb(0 0 0 / 10%);
+}
+
+
+
+
+.feature h3{ 
+   margin: 10px;
+ font-size: 24px;
+    color: #413960;}
+.feature img{
+    height: 80px;
+}
+.feature p{
+        background-color: #F8FFFB;
+    text-align: center;
+    
+}
+
+.course-sec{ padding: 50px 0;    margin-right: 20px;
+    margin-left: 20px; }
+.heading{}
+.heading h1{    text-align: center;
+    color: #413960;
+    margin: 30px;
+    font-weight: 700;}
+
+.card {
+    border-radius: 18px;
+    1rem: ;
+    padding: 1rem 1rem;
+    FONT-WEIGHT: 100;
+    transition: all o.4s linear;
+    box-shadow: 0 20px 40px 0 rgb(0 0 0 / 10%);}
+.card:hover{box-shadow: 0 20px 40px transparent;}
+
+
+.card img{}
+
+.card-body {
+
+    padding: 0px;}
+.card-body h5{
+    font-size: 24px;
+    margin: 15px 0;
+    font-weight: 500;
+    color: #413960;
+}
+.card-text{
+    font-size: 16px;
+    color: #585859;
+    font-weight: 400;
+}
+
+.meta{
+    padding: 10px 0;}
+.meta li{}
+.meta span{
+    font-size: 16px;
+    color: #585859;
+        font-weight: 400;
+}
+.meta i{
+    font-size: 16px;
+    color: #585859;
+    margin-right: 10px;
+        font-weight: 400;
+}
+
+.head h4{    text-align: center;
+    font-size: 36px;
+    font-weight: 700;}
+.coment{padding: 50px o;}
+
+
+
+
+footer{
+    background-color: #282531;
+    padding: 40px 0;
+}
+.widget{
+    font-size: 16px;
+    color: #fff;
+}
+.widget p{}
+.widget strong{}
+.widget ul{
+    font-size: 16px;
+    color: #fff;
+    /* text-decoration: none; */
+}
+.widget ul li{
+    text-decoration: none;
+}
+.widget ul li a{    text-decoration: none;
+    color: #fff;
+    margin-bottom: 10px 0 ;
+}
+.widget ul li a:hover{color: #21B573;transition: all o.4s linear;
+}
+
+.Copyright{ font-size: 16px;
+    color: #CDCDCD;
+    margin-top: 40px;
+text-align: center;}
+
+  
+.round-img{  }
+.round-cont{
+    margin: 30px 0;
+}
+
+
+
+@media( max-width: 992px)
+{
+    .banner-cont h1 {
+    font-size: 39px;
+    padding: 10px 0;}
+
+    .feature h3 {
+    margin: 5px;
+    font-size: 16px;}
+
+    .feature {
+    padding: 15px;
+    border-radius: 10px;
+    margin: 15px 0px;}
+
+}
+   
+
+
+
+@media(max-width: 767px){.banner-cont h1 {
+    font-size: 25px;
+    padding: 2px 0;
+}.banner-cont p {    
+    font-size: 12px;}
+    .card-body h5 {
+    font-size: 18px;
+    margin: 6px 0;}
+    .meta span {
+    font-size: 14px;}
+    .card {   
+    max-width: 350px;
+    margin: auto;
+    margin-top: 30px;}
+    .round-img {
+    width: 200px;
+    margin: auto;}
+    .round-cont {
+    font-size: 14px;
+    margin-top: 0px;}
+
+    .widget p {
+    font-size: 16px;}
+    .widget ul li a {
+    font-size: 12px;}
+    footer {
+    text-align: center;}
+}
+
+
+
+
+
+@media(max-width: 575px){
+    .banner-cont {
+    text-align: center;}
+    .banner-cont h1 {
+    font-size: 30px;}
+    .banner-img{  
+    max-width: 350px;  
+    margin: auto;
+    margin-top:30px ; }
+
+    .card {   
+    max-width: 350px;
+    margin: auto;
+    margin-top: 30px;}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
